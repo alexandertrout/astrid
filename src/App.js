@@ -14,11 +14,13 @@ function App() {
         <AstridLogo/>
         <MenuBar/>
       </section>
-      <Router>
+      <AboutUs/>
+      <WhatWeDo/>
+      {/* <Router>
         <AboutUs path="/"/>
         <WhatWeDo path="/what-we-do"/>
         <GetInTouch path="/get-in-touch"/>
-      </Router>
+      </Router> */}
     </div>
   );
 }

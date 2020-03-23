@@ -76,7 +76,6 @@ h1 {
 }
 
 .main-2 {
-  margin: 6vw 0 0vw 0;
   padding: 7vw 4vw;
   background-color:  #00A651;
   background-image: url(../src/images/AstridWaves-02.svg);
@@ -95,19 +94,19 @@ h1 {
   letter-spacing: 0.2em;
 }
 
+.main-text-2 {
+  padding: 10vw 0 0 0;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 0.2em;
+}
+
 .main-text-text {
   color: white;
 }
-
 .main-text-stop-green {
   color: #00A651;
 }
 .main-text-stop-red {
   color: #FF4E00;
 }
-/* .main2 {
-  text-align: center;
-  height: 30vw;
-  background-color: #484D53;
-  color: white;
-} */
