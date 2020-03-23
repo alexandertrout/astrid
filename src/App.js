@@ -1,9 +1,11 @@
 import React from 'react';
 import './App.css';
-import AstridLogo from './components/AstridLogo'
-import MenuBar from './components/MenuBar'
+import { Router} from "@reach/router";
+import AstridLogo from './components/AstridLogo';
+import MenuBar from './components/MenuBar';
 import AboutUs from './components/AboutUs';
-
+import WhatWeDo from './components/WhatWeDo';
+import GetInTouch from './components/GetInTouch';
 
 function App() {
   return (
@@ -12,7 +14,11 @@ function App() {
         <AstridLogo/>
         <MenuBar/>
       </section>
-      <AboutUs/>
+      <Router>
+        <AboutUs path="/"/>
+        <WhatWeDo path="/what-we-do"/>
+        <GetInTouch path="/get-in-touch"/>
+      </Router>
     </div>
   );
 }

@@ -75,7 +75,7 @@ class AboutInfo extends Component {
             <Title>
               <div className='main-text'>
                 <Fade right>
-                <p className='main-text-text'>About Us</p><p className='main-text-stop'>.</p>
+                <p className='main-text-text'>About Us</p><p className='main-text-stop-green'>.</p>
                 </Fade>
               </div>
             </Title>
