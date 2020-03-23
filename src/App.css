@@ -1,19 +1,74 @@
-.App {
-  text-align: center;
-}
-.App-link {
-  color: #61dafb;
-}
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: brandon;
+  src: url(./fonts/brandon-grotesque-black-58a8a3e824392.otf);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ /* color: #00A651;
+  color: #83BBF4;
+  color: #FF4E00;
+  color: #484D53; */
+
+body {
+  margin: 0;
+  padding: 0;
+  }
+
+.App {
+  font-family: brandon;
+  font-style: normal;
+  font-size: 4vw;
+  color: #484D53;
+  margin: 0;
+  padding: 0;
 }
+
+.menu {
+  background-color: white;
+  margin: 0;
+  padding: 2vw 1vw 0vw 1vw;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 99vw;
+}
+
+ul {
+  margin: 0.5vw;
+  padding: 0.5vw;
+  width: 22vw;
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  text-decoration: none;
+  font-size: 1vw;
+}
+li:hover {
+  text-decoration: none;
+  opacity: 50%;
+  cursor: pointer;
+}
+
+h1 {
+  margin: 0;
+}
+
+.main1 {
+  margin: 8vw 0 0vw 0;
+  text-align: center;
+  height: 30vw;
+  background-color: #83BBF4;
+}
+
+.main2 {
+  margin: 0;
+  text-align: center;
+  height: 50vw;
+  background-color: #484D53;
+  color: white;
+}
+
