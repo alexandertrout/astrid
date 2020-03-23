@@ -7,6 +7,7 @@ const AboutContainer = styled.div`
   color: white;
 `
 const InnerContainer = styled.div`
+  padding: 0vw 0vw 0vw 4vw;
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -19,6 +20,7 @@ const AboutTitle = styled.h3`
 
 const AboutTextMid = styled.p`
   font-size: 1.5vw;
+  letter-spacing: 0.1em;
 `
 
 const AboutText = styled.p`

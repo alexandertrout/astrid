@@ -35,9 +35,9 @@ body {
 }
 
 ul {
-  margin: 0.7vw;
-  padding: 0.7vw;
-  width: 22vw;
+  margin: 0.7vw 0.7vw 0vw 0.7vw;
+  padding: 0.7vw 0.7vw 0vw 0.7vw;
+  width: 24vw;
   text-decoration: none;
   list-style-type: none;
   display: flex;
@@ -51,11 +51,13 @@ a {
 li {
   text-decoration: none;
   font-size: 1vw;
+  padding: 0.8vw;
 }
 li:hover {
   text-decoration: none;
   cursor: pointer;
   color: #FF4E00;
+  border-bottom: solid;
 }
 
 h1 {
