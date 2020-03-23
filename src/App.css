@@ -6,7 +6,6 @@
 body {
   margin: 0;
   padding: 0;
-
  /* color: #00A651;
   color: #83BBF4;
   color: #FF4E00;
@@ -32,6 +31,7 @@ body {
   top: 0;
   width: 99vw;
   box-shadow: 0px 4px 21px -13px rgba(0,0,0,0.75);
+  z-index: 9999;
 }
 
 ul {
