@@ -1,21 +1,17 @@
-import React, { Component } from 'react';
-import styled, { keyframes } from 'styled-components';
-import { fadeInLeftBig } from 'react-animations';
- 
-const fadeAnimation = keyframes`${fadeInLeftBig}`;
- 
-const FadeDiv = styled.div`
-  animation: 2s ${fadeAnimation};
-`
+import React from 'react';
+import AboutInfo from './AboutInfo'
 
-class AboutUs extends Component {
-  render() {
-    return (
-      <div>
-        
-      </div>
-    );
-  }
-}
+
+const AboutUs = () => {
+  return (
+    <main className="main1">
+        <div className="main-text">
+         <p className="main-text-text">Discover Your Voice</p>
+         <p className="main-text-stop">.</p>
+        </div>
+        <AboutInfo/>
+      </main>
+  );
+};
 
 export default AboutUs;

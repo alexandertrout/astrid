@@ -11,7 +11,6 @@ const LogoContainer = styled.div`
   margin: 0;
   padding: 0;
   z-index: 999;
-
 `
 const ImgContainer = styled.img`
   width: 5vw;
@@ -20,6 +19,7 @@ const ImgContainer = styled.img`
   padding: 0;
 `
 const TextContainer = styled.div`
+z-index: 998;
   width: 15vw;
   height: 6vw;
   margin: 0;

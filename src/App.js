@@ -2,6 +2,8 @@ import React from 'react';
 import './App.css';
 import AstridLogo from './components/AstridLogo'
 import MenuBar from './components/MenuBar'
+import AboutUs from './components/AboutUs';
+
 
 function App() {
   return (
@@ -10,12 +12,7 @@ function App() {
         <AstridLogo/>
         <MenuBar/>
       </section>
-      <main className="main1">
-        <h1>Discover Your Voice</h1>
-      </main>
-      <main className="main2">
-        <h1>About Us</h1>
-      </main>
+      <AboutUs/>
     </div>
   );
 }
