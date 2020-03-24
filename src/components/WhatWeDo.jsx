@@ -6,7 +6,7 @@ const WhatWeDoContainer = styled.div`
   margin: 0vw 8vw 0vw 12vw;
   text-align: center;
   color: #484D53;
-  font-size: 1.2vw;
+  font-size: 1.3vw;
   line-height: 2vw;
   /* font-family: Verdana, sans-serif; */
   font-style: normal;
@@ -22,15 +22,16 @@ const InfoContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  font-family: brandon-light;
 `
 const Text = styled.div`
   display: flex;
   text-align: left;
   color: #484D53;
   font-size: 2.5vw;
-  /* font-family: Verdana, sans-serif; */
+  /* font-family: brandon-light; */
   font-style: normal;
-  letter-spacing: 0.2em;
+  /* letter-spacing: 0.2em; */
 `
 
 class WhatWeDo extends Component {

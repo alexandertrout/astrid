@@ -3,6 +3,11 @@
   src: url(./fonts/HVD\ Fonts\ -\ BrandonText-Medium.otf);
 }
 
+@font-face {
+  font-family: brandon-light;
+  src: url(./fonts/brandon-grotesque-light-58a8a4b38001d.otf);
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -19,6 +24,10 @@ body {
   color: #484D53;
   margin: 0;
   padding: 0;
+}
+
+.bradon-light {
+  font-family: brandon-light;
 }
 
 .menu {
@@ -100,7 +109,7 @@ h1 {
   padding: 10vw 0 0 0;
   display: flex;
   justify-content: center;
-  letter-spacing: 0.2em;
+  /* letter-spacing: 0.2em; */
 }
 
 .main-text-text {

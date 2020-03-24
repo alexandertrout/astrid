@@ -15,26 +15,26 @@ const InnerContainer = styled.div`
 
 const AboutTitle = styled.h3`
   font-size: 2vw;
-  letter-spacing: 0.2em;
+  /* letter-spacing: 0.2em; */
 `
 
 const AboutTextMid = styled.p`
   font-size: 1.5vw;
-  letter-spacing: 0.1em;
+  /* letter-spacing: 0.1em; */
 `
 
 const AboutText = styled.p`
-  padding: 0vw 9vw;
-  font-size: 1.2vw;
+  padding: 0vw 6vw;
+  font-size: 1.3vw;
   line-height: 2vw;
-  /* font-family: Verdana, sans-serif; */
+  font-family: brandon-light;
   font-style: normal;
 `
 const Title = styled.p`
   margin: 0;
   padding: 0;
   /* font-size: 6vw; */
-  letter-spacing: 0.2em;
+  /* letter-spacing: 0.2em; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -75,7 +75,7 @@ class AboutInfo extends Component {
 
           
             <Title>
-              <div className='main-text'>
+              <div className='main-text-2'>
                 <Fade right>
                 <p className='main-text-text'>About Us</p><p className='main-text-stop-red'>.</p>
                 </Fade>
