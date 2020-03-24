@@ -18,6 +18,7 @@ function App() {
       </section>
       <AboutUs/>
       <WhatWeDo/>
+      <GetInTouch/>
       <Footer/>
       {/* <Router>
         <AboutUs path="/"/>

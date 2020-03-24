@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import ContactForm from './ContactForm';
 
 class GetInTouch extends Component {
   render() {
     return (
-      <h4>
-        Get In Touch
-      </h4>
+      <div class="main-2">
+        <ContactForm/>
+      </div>
     );
   }
 }
