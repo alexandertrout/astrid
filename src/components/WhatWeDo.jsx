@@ -5,10 +5,10 @@ import Fade from 'react-reveal/Fade';
 const WhatWeDoContainer = styled.div`
   margin: 0vw 8vw 0vw 12vw;
   text-align: center;
-  color: white;
-  font-size: 1vw;
+  color: #484D53;
+  font-size: 1.2vw;
   line-height: 2vw;
-  font-family: Verdana, sans-serif;
+  /* font-family: Verdana, sans-serif; */
   font-style: normal;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -26,9 +26,9 @@ const InfoContainer = styled.div`
 const Text = styled.div`
   display: flex;
   text-align: left;
-  color: white;
+  color: #484D53;
   font-size: 2.5vw;
-  font-family: Verdana, sans-serif;
+  /* font-family: Verdana, sans-serif; */
   font-style: normal;
   letter-spacing: 0.2em;
 `

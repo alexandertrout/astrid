@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 
 const AboutContainer = styled.div`
   text-align: center;
-  color: white;
+  color: #484D53;
 `
 const InnerContainer = styled.div`
   padding: 0vw 0vw 0vw 4vw;
@@ -25,9 +25,9 @@ const AboutTextMid = styled.p`
 
 const AboutText = styled.p`
   padding: 0vw 9vw;
-  font-size: 1vw;
+  font-size: 1.2vw;
   line-height: 2vw;
-  font-family: Verdana, sans-serif;
+  /* font-family: Verdana, sans-serif; */
   font-style: normal;
 `
 const Title = styled.p`
@@ -77,7 +77,7 @@ class AboutInfo extends Component {
             <Title>
               <div className='main-text'>
                 <Fade right>
-                <p className='main-text-text'>About Us</p><p className='main-text-stop-green'>.</p>
+                <p className='main-text-text'>About Us</p><p className='main-text-stop-red'>.</p>
                 </Fade>
               </div>
             </Title>

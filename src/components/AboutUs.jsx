@@ -9,7 +9,7 @@ const AboutUs = () => {
       <Fade top>
         <div className="main-text">
          <p className="main-text-text">Discover Your Voice</p>
-         <p className="main-text-stop-green">.</p>
+         <p className="main-text-stop-red">.</p>
         </div>
       </Fade>
         <AboutInfo/>

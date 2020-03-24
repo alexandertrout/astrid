@@ -6,6 +6,7 @@ import MenuBar from './components/MenuBar';
 import AboutUs from './components/AboutUs';
 import WhatWeDo from './components/WhatWeDo';
 import GetInTouch from './components/GetInTouch';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       </section>
       <AboutUs/>
       <WhatWeDo/>
+      <Footer/>
       {/* <Router>
         <AboutUs path="/"/>
         <WhatWeDo path="/what-we-do"/>
