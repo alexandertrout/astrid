@@ -27,7 +27,7 @@ const AboutText = styled.p`
   padding: 0vw 6vw;
   font-size: 1.3vw;
   line-height: 2vw;
-  font-family: brandon-light;
+  /* font-family: brandon-light; */
   font-style: normal;
 `
 const Title = styled.p`

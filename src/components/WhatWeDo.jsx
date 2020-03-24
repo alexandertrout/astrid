@@ -22,7 +22,7 @@ const InfoContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  font-family: brandon-light;
+  /* font-family: brandon-light; */
 `
 const Text = styled.div`
   display: flex;
