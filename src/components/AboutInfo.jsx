@@ -27,8 +27,12 @@ const AboutText = styled.p`
   padding: 0vw 6vw;
   font-size: 1.3vw;
   line-height: 2vw;
-  /* font-family: brandon-light; */
   font-style: normal;
+   @import url('./fonts/brandon-grotesque-light-58a8a4b38001d.otf');
+  body {
+    font-family: 'brandon-light';
+  }
+  font-family: brandon-light;
 `
 const Title = styled.p`
   margin: 0;

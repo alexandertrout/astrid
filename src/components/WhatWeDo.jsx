@@ -22,14 +22,17 @@ const InfoContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  /* font-family: brandon-light; */
+     @import url('./fonts/brandon-grotesque-light-58a8a4b38001d.otf');
+  body {
+    font-family: 'brandon-light';
+  }
+  font-family: brandon-light;
 `
 const Text = styled.div`
   display: flex;
   text-align: left;
   color: #484D53;
   font-size: 2.5vw;
-  /* font-family: brandon-light; */
   font-style: normal;
   /* letter-spacing: 0.2em; */
 `
