@@ -19,7 +19,7 @@ const GlobalStyles = createGlobalStyle`
 function App() {
   return (
     <div className="App">
-       <GlobalStyles />
+       {/* <GlobalStyles /> */}
       <section class='menu'>
         <AstridLogo/>
         <MenuBar/>
