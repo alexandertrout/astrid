@@ -27,7 +27,7 @@ z-index: 998;
   position: relative;
 `
 const MainText = styled.p`
-  font-size: 2.5vw;
+  font-size: 2.2vw;
   margin: 0;
   padding: 0;
   position: absolute;
@@ -42,7 +42,7 @@ const SubText = styled.p`
   padding: 0;
   position: absolute;
   bottom: 1.6vw;
-  left: 5.5vw;
+  left: 5.1vw;
 `
 
 const AstridLogo = () => {
