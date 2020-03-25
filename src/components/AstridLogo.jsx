@@ -45,8 +45,8 @@ const SubText = styled.p`
   left: 5.1vw;
   @media only screen and (max-width: 600px) {
   position: absolute;
-  bottom: 0;
-  left: 1vw;
+  bottom: 1vw;
+  left: 6vw;
   }
 `
 
