@@ -18,6 +18,10 @@ const FadeDiv3 = styled.div`
 const MenuBarDiv = styled.div`
   display: flex;
   flex-direction: column;
+  @media only screen and (max-width: 600px) {
+  width: 70vw;
+  height: 7vw;
+  }
 `;
 
 class MenuBar extends Component {

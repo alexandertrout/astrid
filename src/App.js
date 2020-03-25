@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
-      <section class='menu'>
+      <section className='menu'>
         <AstridLogo/>
         <MenuBar/>
       </section>

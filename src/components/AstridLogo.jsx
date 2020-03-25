@@ -43,6 +43,11 @@ const SubText = styled.p`
   position: absolute;
   bottom: 1.6vw;
   left: 5.1vw;
+  @media only screen and (max-width: 600px) {
+  position: absolute;
+  bottom: 0;
+  left: 1vw;
+  }
 `
 
 const AstridLogo = () => {
