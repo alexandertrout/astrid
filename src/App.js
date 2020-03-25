@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Router} from "@reach/router";
+// import { Router} from "@reach/router";
 import AstridLogo from './components/AstridLogo';
 import MenuBar from './components/MenuBar';
 import AboutUs from './components/AboutUs';

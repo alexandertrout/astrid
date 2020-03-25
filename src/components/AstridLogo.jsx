@@ -11,12 +11,18 @@ const LogoContainer = styled.div`
   margin: 0;
   padding: 0;
   z-index: 999;
+  @media only screen and (max-width: 600px) {
+  width: 50vw;
+  }
 `
 const ImgContainer = styled.img`
   width: 5vw;
   height: auto;
   margin: 0;
   padding: 0;
+  @media only screen and (max-width: 600px) {
+  width: 10vw;
+  }
 `
 const TextContainer = styled.div`
 z-index: 998;
@@ -25,6 +31,10 @@ z-index: 998;
   margin: 0;
   padding: 0vw 1vw;
   position: relative;
+  @media only screen and (max-width: 600px) {
+  width: 50vw;
+  height: 10vw;
+  }
 `
 const MainText = styled.p`
   font-size: 2.2vw;
@@ -33,6 +43,12 @@ const MainText = styled.p`
   position: absolute;
   top: 0.4vw;
   left: 2vw;
+  @media only screen and (max-width: 600px) {
+  font-size: 5vw;
+  position: absolute;
+  bottom: 2vw;
+  left: 5.5vw;
+  }
 `
 const SubText = styled.p`
   font-family: Verdana, sans-serif;
@@ -44,9 +60,10 @@ const SubText = styled.p`
   bottom: 1.6vw;
   left: 5.1vw;
   @media only screen and (max-width: 600px) {
+  font-size: 2vw;
   position: absolute;
-  bottom: 1vw;
-  left: 6vw;
+  bottom: 1.2vw;
+  left: 11vw;
   }
 `
 

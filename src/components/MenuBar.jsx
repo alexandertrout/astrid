@@ -20,7 +20,7 @@ const MenuBarDiv = styled.div`
   flex-direction: column;
   @media only screen and (max-width: 600px) {
   width: 70vw;
-  height: 7vw;
+  height: 10vw;
   }
 `;
 
