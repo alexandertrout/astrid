@@ -12,21 +12,36 @@ const WhatWeDoContainer = styled.div`
   font-style: normal;
   display: grid;
   grid-template-columns: 1fr 1fr;
+
+    @media only screen and (max-width: 600px) {
+    margin: 0vw 10vw;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+  }
 `
 const TextContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+    @media only screen and (max-width: 600px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 `
 const InfoContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-     @import url('./fonts/brandon-grotesque-light-58a8a4b38001d.otf');
+  @import url('./fonts/brandon-grotesque-light-58a8a4b38001d.otf');
   body {
     font-family: 'brandon-light';
   }
   font-family: brandon-light;
+  @media only screen and (max-width: 600px) {
+    font-size: 4vw;
+    line-height: 4.5vw;
+  }
 `
 const Text = styled.div`
   display: flex;
@@ -35,6 +50,10 @@ const Text = styled.div`
   font-size: 2.5vw;
   font-style: normal;
   /* letter-spacing: 0.2em; */
+      @media only screen and (max-width: 600px) {
+    font-size: 4vw;
+    justify-content: flex-end;
+  }
 `
 
 class WhatWeDo extends Component {

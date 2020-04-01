@@ -11,16 +11,29 @@ const InnerContainer = styled.div`
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  @media only screen and (max-width: 600px) {
+    padding: 0vw;
+    display: flex; 
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
 `
 
 const AboutTitle = styled.h3`
   font-size: 2vw;
   /* letter-spacing: 0.2em; */
+  @media only screen and (max-width: 600px) {
+  font-size: 5vw;
+}
 `
 
 const AboutTextMid = styled.p`
   font-size: 1.5vw;
   /* letter-spacing: 0.1em; */
+    @media only screen and (max-width: 600px) {
+  font-size: 4vw;
+}
 `
 
 const AboutText = styled.p`
@@ -33,6 +46,10 @@ const AboutText = styled.p`
     font-family: 'brandon-light';
   }
   font-family: brandon-light;
+      @media only screen and (max-width: 600px) {
+  font-size: 4vw;
+  line-height: 4.5vw;
+}
 `
 const Title = styled.p`
   margin: 0;
@@ -57,7 +74,10 @@ class AboutInfo extends Component {
                 </Fade>
                 <Fade left>
               <AboutText>
-                More and more brands are realising that they need to incorporate podcasting into their content marketing strategy but with almost 1 million podcasts currently live, it's a little overwhelming. The question is, how do you create something that breaks through the noise?
+                More and more brands are realising that they need to incorporate podcasting into their content marketing strategy but with almost 1 million podcasts currently live, it's a little overwhelming.
+              </AboutText>
+              <AboutText>
+                The question is, how do you create something that breaks through the noise?
               </AboutText>
               </Fade>
               <Fade left>
@@ -76,8 +96,6 @@ class AboutInfo extends Component {
               </AboutText>
               </Fade>
               </div>
-
-          
             <Title>
               <div className='main-text-2'>
                 <Fade right>

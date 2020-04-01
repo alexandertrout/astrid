@@ -9,7 +9,7 @@ display: flex;
 flex-direction: row;
 justify-content: center;
   @media only screen and (max-width: 600px) {
-  font-size: 14px;
+  font-size: 25px;
   }
 `
 
@@ -20,6 +20,9 @@ const Container = styled.div`
   align-items: center;
   text-align: center;
   padding: 0px 10px;
+  @media only screen and (max-width: 600px) {
+  margin: 0;
+  }
 `
 const AboutText = styled.p`
   padding: 0vw 12vw;
@@ -31,6 +34,10 @@ const AboutText = styled.p`
     font-family: 'brandon-light';
   }
   font-family: brandon-light;
+        @media only screen and (max-width: 600px) {
+  font-size: 4vw;
+  line-height: 4.5vw;
+}
 `
 
 const FormContainer = styled.form`
@@ -44,6 +51,7 @@ const FormContainer = styled.form`
   @media only screen and (max-width: 600px) {
   margin: 2vw 10vw;
   width: 80vw;
+  height: auto;
   }
 `
 
@@ -60,6 +68,9 @@ const NameInput = styled.input`
   padding: 1vw;
   font-size: 1vw;
   box-shadow: 0px 4px 21px -13px rgba(0,0,0,0.75);
+  @media only screen and (max-width: 600px) {
+  font-size: 20px;
+  }
 `
 const NumberInput = styled.input`
 :focus {
@@ -74,6 +85,9 @@ const NumberInput = styled.input`
   padding: 1vw;
   font-size: 1vw;
   box-shadow: 0px 4px 21px -13px rgba(0,0,0,0.75);
+  @media only screen and (max-width: 600px) {
+  font-size: 20px;
+  }
 `
 const EmailInput = styled.input`
 :focus {
@@ -88,6 +102,9 @@ const EmailInput = styled.input`
   padding: 1vw;
   font-size: 1vw;
   box-shadow: 0px 4px 21px -13px rgba(0,0,0,0.75);
+  @media only screen and (max-width: 600px) {
+  font-size: 20px;
+  }
 `
 
 const MessageInput = styled.input`
@@ -104,6 +121,9 @@ const MessageInput = styled.input`
   height: auto;
   font-size: 1vw;
   box-shadow: 0px 4px 21px -13px rgba(0,0,0,0.75);
+  @media only screen and (max-width: 600px) {
+  font-size: 20px;
+  }
 `
 const SendButton = styled.button`
 :hover {
@@ -117,6 +137,10 @@ const SendButton = styled.button`
   border: none;
   padding: 1vw;
   font-size: 1vw;
+  @media only screen and (max-width: 600px) {
+  font-size: 20px;
+  padding: 10px;
+  }
 `
 
 class ContactForm extends Component {
@@ -157,7 +181,7 @@ class ContactForm extends Component {
     return (
       <div>
         <Container>
-          <SomeText>Get In Touch</SomeText>
+          <SomeText>Get In Touch.</SomeText>
           <AboutText>If you're looking to start a podcast and want to get the ball rolling, drop us a message and we will get back to you as soon as possible with our information pack and a reach out form.</AboutText>
           <AboutText>hello@astridmedia.co</AboutText>
         <FormContainer onSubmit={this.handleSubmit}>

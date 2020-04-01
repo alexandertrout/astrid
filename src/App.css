@@ -49,11 +49,7 @@ body {
     align-items: center;
     justify-content: space-between;
   }
-  li {
-  font-size: 3vw;
-  }
 }
-
 
 ul {
   margin: 0.7vw 0.7vw 0vw 0.7vw;
@@ -73,6 +69,13 @@ li {
   font-size: 1vw;
   padding: 0.8vw;
 }
+
+ @media only screen and (max-width: 600px) {
+  li {
+    font-size: 3vw;
+  }
+}
+
 li:hover {
   text-decoration: none;
   cursor: pointer;
@@ -115,9 +118,33 @@ h1 {
   justify-content: center;
   letter-spacing: 0.2em;
 }
+ @media only screen and (max-width: 600px) {
+  .main-text{
+  font-size: 6vw;
+  padding: 10vw 0vw 0vw 0vw;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 0.2em;
+  }
+  .main-text-2{
+  font-size: 6vw;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  /* letter-spacing: 0.2em; */
+  }
+  .main-text-text {
+  padding: 0;
+  margin: 4vw 0;
+}
+.main-text-stop-red {
+  padding: 0;
+  margin: 4vw 0;
+}
+}
 
 .main-text-2 {
-  padding: 10vw 0 0 0;
   display: flex;
   justify-content: center;
   /* letter-spacing: 0.2em; */

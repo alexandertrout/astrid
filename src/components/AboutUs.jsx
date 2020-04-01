@@ -13,7 +13,7 @@ const AboutUs = () => {
         </div>
       </Fade>
         <AboutInfo/>
-      </main>
+    </main>
   );
 };
 
